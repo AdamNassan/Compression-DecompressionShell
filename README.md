@@ -1,3 +1,21 @@
+# Shell-Scripting-Compression-and-Decompression
+
+This project implements a simple dictionary-based compression and decompression tool using shell scripting. The tool performs lossless data compression by assigning unique binary codes to words and substituting these codes in the compressed file.
+
+## Project Overview
+
+The dictionary-based compression technique identifies patterns in data and replaces them with shorter codes. Key features of this implementation include:
+
+- **Binary Codes:** Each word in the uncompressed file is assigned a unique 16-bit binary code.
+- **Unicode Support:** The uncompressed file contains Unicode characters (16 bits per character).
+- **Dictionary:** The dictionary is stored in a `dictionary.txt` file and evolves with repeated compression operations.
+- **Case Sensitivity:** Compression and decompression are case-sensitive.
+- **Special Characters:** Treated as words, with each assigned a unique code.
+
+### Example
+
+#### Input Text:
+
 
 #### Generated Dictionary:
 
