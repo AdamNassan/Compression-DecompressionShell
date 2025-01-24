@@ -71,21 +71,6 @@ The dictionary-based compression technique identifies patterns in data and repla
 - Validate codes against the dictionary.
 - Decompress the file and save the uncompressed data.
 
-## Usage Instructions
-
-### Running the Program
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/shell-compression-tool.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd shell-compression-tool
-    ```
-3. Run the script:
-    ```bash
-    bash compression_tool.sh
-    ```
 
 ### Program Options
 - **Compression:** Enter `c`, `compress`, or `compression`.
